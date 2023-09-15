@@ -9,11 +9,14 @@ export default function StartScreen({ navigation }) {
   return (
     <Background>
       <Logo />
-      <Header>Login Template</Header>
+      <Header>Kudumbashree </Header>
       <Paragraph>
-        The easiest way to start with your amazing application.
+        Connecting Neighbourhoods
       </Paragraph>
       <Button
+        style={{
+          color: "#fff"
+        }}
         mode="contained"
         onPress={() => navigation.navigate('LoginScreen')}
       >
